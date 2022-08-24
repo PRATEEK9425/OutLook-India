@@ -1,0 +1,111 @@
+#main{
+    display: flex;
+    
+}
+#left{
+width: 78%;
+
+padding: 5px;
+}
+#right{
+width: 20%;
+border: 0px solid green;
+margin-left: 5px;
+padding: 5px;
+}
+#right>p{
+margin-left: 5px;
+}
+img+hr{
+border-left: 5px solid grey;
+height:25px;
+position: absolute;
+margin-left: 20px;
+
+}
+p{
+margin-left: 39px;
+margin-top: 10px;
+color: rgb(78, 71, 71);
+}
+img{
+width: 98%;
+padding: 10px;
+border: 0px solid red;
+}
+#main1{
+display: flex;
+justify-content: space-evenly;
+}
+#main1>div{
+width: 50%;
+padding: 10px;
+}
+#main2{
+display: flex;
+justify-content: space-evenly;
+}
+#main2>div>p{
+margin-left: 10px;
+}
+#main2right>img{
+height: 180px;
+margin-left: 20px;
+}
+#main2right{
+margin-left: 20px;
+}
+#middle{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+
+}
+/* .homecypto{
+
+} */
+#meta{
+    color: red;
+}
+#entertainment{
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 10px;
+   
+    
+}
+/* #entertainment_left{
+   
+    
+} */
+#entertainment_left>p{
+   margin-left: 5px;
+    
+}
+#entertainment_middle{
+    margin-left: 5px;
+}
+/* #entertainment_right{
+   
+} */
+#culture_society{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+
+}
+#world{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+
+}
+h1:hover{
+    color: red;
+}
+h2:hover{
+    color: red;
+}
+h3:hover{
+    color: red;
+}
