@@ -1,0 +1,150 @@
+
+#cont1{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto;
+gap: 10px;
+margin-top: 30px;
+text-align: center;
+}
+.crptobox{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#pic{
+    margin-top: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.titlenews:hover{
+    color: red;
+}
+
+
+
+#midnewsbox{
+   
+    display: flex;
+    margin: auto;
+    margin-top: 30px; 
+    gap: 20px;
+}
+
+
+#cont2{
+
+    width: 76%;
+    /* border: 1px solid black; */
+   
+}
+
+#midpic{
+    height: 150px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.midtitlenews{
+    margin-left: 50%;
+    margin-top: -120px;
+}
+.midtitlenews:hover{
+    color: red;
+}
+
+.middledes{
+    margin-left: 50%;
+   
+}
+
+#middate{
+    margin-left: 5px;
+    margin-top: -50px;
+}
+#carusel{
+    width: 23%;
+    height: 980px;
+    /* border: 1px solid black; */
+}
+
+/* slider start */
+splide__arrow--next svg{
+    position: relative;
+    top: 0;
+    left: 35px;
+}
+.splide__arrow--prev svg{
+    position: relative;
+    top: 0;
+    right: 35px;
+}
+.box{
+width: 350px;
+height: 550px;
+/* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+margin: auto;
+margin-bottom: 50px;
+}
+.product-img{
+width: 340px;
+height: 400px;
+position: relative;
+}
+
+.product-info{
+width: 300px;
+height: 250px;
+margin-top: 70px;
+ margin-left: 20px;
+text-align: center;
+}
+.container{
+width: 80%;
+margin: auto;
+}
+.sliderimg{
+    height: 300px;
+    width: 300px;
+}
+.product-img>h2{
+    position: absolute;
+    top: 350px;
+   left: 25%;
+   color: white;
+   
+}
+
+.splide__arrow svg {
+    fill:black;
+    height: 2.5em;
+    transition: fill .2s linear;
+    width: 2.5em;
+    margin-left: 16px;
+}
+/* slider end */
+
+
+.advertisment{
+    margin-top: 30px;
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: #f8f8f8 ;
+    text-align: center;
+}
+
+#cont3{
+
+    width: 80%;
+    /* border: 1px solid black; */
+   margin-bottom: 50px;
+   margin-left: 10px;
+}
+
+#cont4{
+margin-top: 50px;
+    width: 80%;
+    /* border: 1px solid black; */
+height: 1000px;
+margin-left: 10px;
+}
