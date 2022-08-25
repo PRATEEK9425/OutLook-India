@@ -35,14 +35,15 @@ text-align: center;
 
     width: 76%;
     /* border: 1px solid black; */
-   
+   height: auto;
 }
 
 #midpic{
     height: 150px;
     width: 300px;
     margin-left: 200px;
-    margin-top: 30px;
+    margin-top: 60px;
+     /* border: 1px solid black; */
 }
 .midtitlenews{
     margin-left: 50%;
@@ -60,6 +61,10 @@ text-align: center;
 #middate{
     margin-left: 5px;
     margin-top: -50px;
+}
+.middlebox{
+    /* border: 1px solid black; */
+    margin-top: 20px;
 }
 #carusel{
     width: 23%;
