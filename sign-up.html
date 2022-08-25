@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Page</title>
+    <style>
+        *{
+              margin: 0px;
+              padding: 0px;
+        }
+        #signuptop {
+            width: 100%;
+            height: 280px;
+        }
+
+        #signuptop>a>img {
+            width: 100%;
+        }
+
+        #signuptop+h2 {
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #signuptop+h2+p {
+            text-align: center;
+            color: grey;
+        }
+
+        #divsections {
+            width: 55%;
+            height: 300px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+            border: 1px solid transparent;
+            margin: auto;
+
+        }
+
+        #divsections>div {
+            border: 1px solid red;
+            border-radius: 10px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+        }
+
+        input[type="password"],
+        input[type="number"],
+        input[type="text"],
+        input[type="email"] {
+            width: 90%;
+            height: 50px;
+
+
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-sizing: border-box;
+            margin-top: 14px;
+            margin-bottom: 15px;
+            resize: vertical;
+            margin-left: 17px;
+            padding: 20px 20px;
+
+
+
+        }
+
+        #btn {
+            width: 90%;
+            height: 50px;
+            border-radius: 10px;
+            margin-left: 17px;
+            border: none;
+            background-color: teal;
+            color: white;
+            font-size: 18px;
+        }
+
+        #btn:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="signuptop"> <a href="index-nav.html"><img
+                src="https://conscent-public.s3.ap-south-1.amazonaws.com/prod/Outlook%20India%20/banners/Outlook%20India%20%20-%20desktopBanner-ed923b.png"
+                alt=""></a></div>
+
+    <h2>
+        Choose Your Subscription Plan
+    </h2>
+
+    <p>Outlook Subscription</p>
+
+    <div id="divsections">
+        <div>
+            <form action="">
+
+                <input type="text" placeholder="Enter Name Here" class="inputs" id="name"><br>
+
+                <input type="number" placeholder="Enter Mobile number" class="inputs" id="email"><br>
+
+                <input type="password" placeholder="Enter password" class="inputs" id="password"><br>
+
+            </form>
+
+            <button onclick="signup()" id="btn">Subscribe Now</button>
+
+        </div>
+
+        <div>
+
+        </div>
+
+    </div>
+</body>
+<script src="./SCRIPT/Sign-up.js"></script>
+<script>
+
+
+
+</script>
+
+</html>

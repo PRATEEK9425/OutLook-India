@@ -1,8 +1,5 @@
-  function navbar(){
-   
-    
-                    
-             return   `<div> <a href="signup.html">HOME </a></div>
+  function navbar(){              
+             return   `<div> <a href="index-nav.html">HOME </a></div>
                  <div><a href="">OUTLOOK </a></div>
                  <div><a href="">BUSINESS</a></div>
                  <div><a href="">MONEY</a></div>
@@ -20,5 +17,17 @@
     
   }
 
-  export default navbar()
+  function date(){
+     
+    return Date()
+  }
+export {navbar,date}
+
+  // export default navbar()
+
+
+
+
+
+
   

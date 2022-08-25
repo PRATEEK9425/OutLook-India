@@ -21,14 +21,17 @@ function showSlides() {
 
  // DATE-TIME---------------------------------------------------
 
-    let container=document.getElementById("date")
-    let dt=document.createElement("h5")
-    dt.innerText= Date()
-    container.append(dt)
 // importing navbar------------
-    import navbar from "../EXPORT_HUB/navbar.js";
+    // import navbar from "../EXPORT_HUB/navbar.js";
+    
+    import {navbar,date} from "../EXPORT_HUB/navbar.js";
+     console.log(date)
     console.log(navbar);
-    document.getElementById("navsections").innerHTML=navbar
+    // document.getElementById("navsections").innerHTML=navbar
+    document.getElementById("date").innerHTML=date()
+    document.getElementById("navsections").innerHTML=navbar()
+    
+    
 // --------------------------------------------------------------------
 
 
