@@ -1,9 +1,5 @@
 
 
-
-
-
-
 // database here 
 let news1 =[
     {
@@ -168,36 +164,14 @@ let news4=[
 
 // --------------------------------------------DATA BASE-----------------------------------------
 
+// first append function for grid format and then non grid model
 
+import {append,append2} from "../export_station/appendfun.js"
+// console.log(append2)
 let cont1 = document.getElementById("cont1")
 append(news1,cont1)
 
-// append for grid model
-function append(data,cont){
-
-data.forEach(function(el){
-
-let image = document.createElement("img")
-image.setAttribute("id","pic")
-image.src = el.image
-
-let title = document.createElement("h3")
-title.innerText = el.title
-title.setAttribute("class","titlenews")
-let description = document.createElement("p")
-description.innerText = el.description
-
-let date = document.createElement("h2")
-date.innerText = el.date
-
-let box = document.createElement("div")
-box.setAttribute("class" ,"crptobox")
-box.append(image,title,description,date)
-cont.append(box)
-})
-
-}
-
+// append for non grid model
 let cont2 = document.getElementById("cont2")
 append2(news2,cont2)
 
@@ -207,37 +181,7 @@ append2(news3,cont3)
 let cont4 = document.getElementById("cont4")
 append2(news4,cont4)
 
-// append for non grid model
-function append2(data,cont){
 
-    data.forEach(function(el){
-    
-    let image = document.createElement("img")
-    image.setAttribute("id","midpic")
-    image.src = el.image
-    
-    let title = document.createElement("h3")
-    title.innerText = el.title
-    title.setAttribute("class","midtitlenews")
-
-    let description = document.createElement("p")
-    description.innerText = el.description
-    description.setAttribute("class","middledes")
-    let date = document.createElement("h2")
-    date.innerText = el.date
-    date.setAttribute("id","middate")
-
-
-
-    let box = document.createElement("div")
-    box.setAttribute("class" ,"middlebox")
-    box.append(image,title,description,date)
-    cont.append(box)
-    })
-    
-    }
-
-    
 // slider start
 var splide = new Splide( '.sp2', {
   type   : 'loop',
