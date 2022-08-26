@@ -1,4 +1,18 @@
-// AUTOMATIC SLIDE SHOW---------------------------------------
+
+// IMPORTING NAVBAR--------------------------------------------------------
+
+    // import navbar from "../EXPORT_HUB/navbar.js";
+    import {navbar,date} from "../EXPORT_HUB/navbar.js";
+     
+    console.log(navbar);
+    console.log(date)
+    document.getElementById("fullbody").innerHTML=navbar()
+    document.getElementById("date").innerHTML=date()
+   
+    
+      
+// SLIDE SHOW FUNCTION --------------------------------------------------------------------
+
 let slideIndex = 0;
 showSlides();
 
@@ -18,17 +32,3 @@ function showSlides() {
     dots[slideIndex - 1].className += " active";
     setTimeout(showSlides, 2000); 
 }
-
- // DATE-TIME---------------------------------------------------
-
-    let container=document.getElementById("date")
-    let dt=document.createElement("h5")
-    dt.innerText= Date()
-    container.append(dt)
-// importing navbar------------
-    import navbar from "../EXPORT_HUB/navbar.js";
-    console.log(navbar);
-    document.getElementById("navsections").innerHTML=navbar
-// --------------------------------------------------------------------
-
-
