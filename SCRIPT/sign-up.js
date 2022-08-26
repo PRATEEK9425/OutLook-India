@@ -1,3 +1,13 @@
+import {navbar,date,footer} from "../EXPORT_HUB/navbar.js";
+     
+// console.log(navbar);
+// console.log(date)
+// document.getElementById("loginfullbody").innerHTML = navbar()
+// document.getElementById("date").innerHTML=date()
+document.getElementById("footersection").innerHTML=footer()
+
+
+
 
     class user {
         constructor(n, e, p) {

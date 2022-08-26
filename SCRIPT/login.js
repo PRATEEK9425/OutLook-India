@@ -1,68 +1,64 @@
-//  importing navbar------------
-// import navbar from "../EXPORT_HUB/navbar.js";
+// IMPORT SECTION----------------------------------------------------------
+
+import {navbar,date,footer} from "../EXPORT_HUB/navbar.js";    
 // console.log(navbar);
-// document.getElementById("navsections").innerHTML=navbar()
-
-
-
-  
- 
-import {navbar,date} from "../EXPORT_HUB/navbar.js";
 // console.log(date)
-// console.log(navbar);
-// document.getElementById("navsections").innerHTML=navbar
-// document.getElementById("date").innerHTML=date()
-document.getElementById("navsections").innerHTML=navbar()
+document.getElementById("loginfullbody").innerHTML = navbar()
+document.getElementById("date").innerHTML=date()
+document.getElementById("footersection").innerHTML=footer()
 
 
-class user {
-    constructor(e, p) {
-      this.email = e
-      this.password = p
-    }
-  }
+  // LOGIN PART---------------------------------------------------------------
 
   let userdata = JSON.parse(localStorage.getItem("userinfo")) || []
     //    console.log(userdata)
-
    document.getElementById("btnsignin").addEventListener("click",signin)
   
-   
-  function signin() {
-  
-      // console.log("hi");
-    let form = document.querySelector("form")
-    let email = form.email.value
-    let password = form.password.value
-    let data = new user(email, password)
-    console.log(data)
-    if (checksignup(data.email && data.password) === true) 
-    {
-      localStorage.setItem("signin", JSON.stringify(userdata))
-      localStorage.setItem("signinvalue", true)
-      alert("SUCCESS")
-      window.location.href = "index-nav.html"
-    }
-    else if(checksignup(data.email && data.password) === "")
-      {
-      alert("PLEASE FILL DATA")
-    }
-     else
-      {
-      alert("WRONG CREDENTIAL")
-    }
-   
-  }
-  
-  function checksignup(email, password) {
-    let filters = userdata.filter((el) => {
-      return el.email === email && el.password === password
-    })
-    if (filters.length > 0) {
-      return false
-    }
-    else {
-      return true
-    }
+   function signin() {
+     let email1 = document.querySelector("#email").value
+     let pass1 = document.querySelector("#password").value
+ 
+     if (email1.length == 0 || pass1.length == 0) {
+       alert("Please fill data")
+     } 
+     else {
+       let flag = false;
+       userdata.map((el) => {
+         // console.log(el)
+        if (el.email == email1 && el.password == pass1) {
+          window.location.href ="index-nav.html" 
+           flag = true;
+         }
+       })
+       if (flag) {
+         alert("Login succesful")
+       }
+       else {
+         alert("Incorrect Data")
+       }
+     }
+   }
 
-  }
+
+
+ //SLIDE SHOW FUNCTION --------------------------------------------------------------------
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    setTimeout(showSlides, 2000); 
+}
