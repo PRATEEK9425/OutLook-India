@@ -61,9 +61,15 @@ margin-left: 20px;
     text-align: center;
 
 }
-/* .homecypto{
-
-} */
+.homecypto{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 5px;
+    margin-left: 5px;
+   border-radius: 5px;
+}
+#homepic{
+    margin-left: -8px;
+}
 #meta{
     color: red;
 }
@@ -145,6 +151,7 @@ h3:hover{
     border: 0px solid green;
     margin: auto;
     margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
 
 }
@@ -160,6 +167,24 @@ h3:hover{
     margin-left: 10px;
     margin-top: -80px;
 }
+#edivbussiness {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 70%;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#edivbuss {
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 
 
 
