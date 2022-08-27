@@ -153,3 +153,138 @@ margin-top: 50px;
 height: 1000px;
 margin-left: 10px;
 }
+
+/* agritech page css */
+#heading{
+    text-align: center;
+}
+#navbar{
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+#navbar>h3:hover{
+color: red;
+}
+
+#wallpaper{
+   width: 100%;
+}
+#container{
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 80%;
+}
+
+#cetrecont{
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 80%; 
+    margin-top: 20px;
+}
+
+.para{
+    text-align:justify;
+    margin-left: 20%;
+    line-height: 30px;
+    font-weight:500;
+}
+.head{
+    margin-left: 5%;
+    margin-left: 20%;
+}
+#wallpaper1{
+    width: 80%;
+    height: 800px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 20px;
+}
+#wallpaper1>img{
+    width: 100%;
+}
+
+#container2{
+    height: 260px;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 400px;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+ .box1{
+    height: 200px;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+ }
+
+ .logoimg{
+    height: 150px;
+    width: 25%;
+    margin-left: 40%;
+ }
+
+ #logo1{
+    height: 200px;
+    width: 400px;
+ }
+
+ .box1>h2{
+    text-align: center;
+ }
+
+ #box3{
+    
+    width: 40%;
+    text-align: center;
+    /* border: 1px solid; */
+margin-left: 800px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+ }
+ .smallimg{
+    height: 80px;
+    width: 150px;
+ }
+ #lastheading{
+    margin-left: 1000px;
+ }
+
+#loginbox{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  
+}
+
+#lastheding{
+    margin-left: 150px;
+}
+
+.inputs{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+#loginbox>div{
+   /* border: 1px solid; */
+   width: 60%;
+   /* height: 100px; */
+   padding: -50px;
+}
+.special{
+    margin-left: 150px;
+}
