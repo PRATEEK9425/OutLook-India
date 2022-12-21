@@ -1,34 +1,28 @@
 
 
-# India Mart/Blue Heaven Cosmetics.com
+# OutlookIndia Clone
 
 > [OutlookIndia] (https://www.outlookindia.com/) Outlook is India’s most vibrant current affairs and news magazine launched in 1995. Known for its bold and aggressive reporting it continuously raises questions many had in their minds but never dared to ask.
 
-Outlook Business is an insightful, thought-provoking, compelling, in-depth business magazine that delivers a fresh perspective, coupled with a holistic approach.
+> Outlook Business is an insightful, thought-provoking, compelling, in-depth business magazine that delivers a fresh perspective, coupled with a holistic approach.
 
-> Cloned OutlookIndia website build during the construct week at [Masai School](https://masaischool.com/). Completed the project in five days with a team of four members and implemented the maximum user functionality.
+> Cloned OutlookIndia website build during the construct week at [Masai School](https://masaischool.com/). Completed the project in four days with a team of four members and implemented the maximum user functionality.
 
 ## Deployed Link of our work 👉 [Click here](https://outlook-india-clone.netlify.app/)
 
 
 ## Home Page 
 
-![image](https://drive.google.com/file/d/1W6-xqnnh3lJk4t3S_pAlafqgxShxc4JW/view?usp=share_link)
+![image](https://i.postimg.cc/1zvMSyLX/Screenshot-20221222-010144.png)
 
-## About Section
-![image]()
+## News Section
+![image](https://i.postimg.cc/sXBPR7YH/Screenshot-20221222-010202.png)
 
-## Related Product
-![image]()
+## Footer Section
+![image](https://i.postimg.cc/ZYdP7PKC/Screenshot-20221222-010218.png)
 
-## Footer
-![image]()
-
-## Shopping Page
-![image]()
-
-## Login Page
-![image]()
+## Sign-up Section
+![image](https://i.postimg.cc/BZHDcqMF/Screenshot-20221222-010248.png)
 
 # Features
 
@@ -55,16 +49,16 @@ Outlook Business is an insightful, thought-provoking, compelling, in-depth busin
 
 # Contributor
 #### Dibyanshu Srivastav
-> Github: [Dibyanshu]() 
+> Github: [Dibyanshu](https://github.com/sdibyanshu) 
 
 #### Prateek soni
-> Github: [Prateek]() 
+> Github: [Prateek](https://github.com/PRATEEK9425) 
 
 #### Deepak
-> Github: [Deepak]() 
+> Github: [Deepak](https://github.com/dkp041297) 
 
 #### Divya
-> Github: [Divya]() 
+> Github: [Divya](https://github.com/Divya1327) 
 
 
 
