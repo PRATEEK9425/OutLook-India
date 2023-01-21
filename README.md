@@ -16,6 +16,7 @@
 # Features
 
 - Collection of news
+- magazines
 - Signup/Login functionality
 - User can read news category wise
 
