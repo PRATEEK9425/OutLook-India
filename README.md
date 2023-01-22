@@ -8,7 +8,7 @@
 
 > Cloned OutlookIndia website build during the construct week at [Masai School](https://masaischool.com/). Completed the project in four days with a team of four members and implemented the maximum user functionality.
 
-## Deployed Link of our work 👉 [Click here](https://outlook-india-clone.netlify.app/)
+## Deployed Link of our work 👉 [Click here](https://subtle-gaufre-77426e.netlify.app/cryptocorner.html)
 
 
 
